@@ -48,9 +48,12 @@ body{
     margin-left:1.5px;
     margin-top:16px;
     color: #EAE7D2;
+
 }
-.active{
-    color: blue;
+#menu .active a{
+
+    color: #797066;
+    background-color:#EAE7D2;
 }
 #menu a:hover
 {
