@@ -1,12 +1,14 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 body{
-margin:auto;
-width:870px;
-    
+    margin:auto;
+    margin-top:20px;
+    width:870px;
+    font-family:verdana;    
 }
 #container{
+    border: 1px solid #917439;
     margin:auto;
-    height:860px;
+    height:680px;
     width:600px;
     background:#EAE7D2;
     
@@ -47,7 +49,7 @@ width:870px;
     margin-top:16px;
     color: #EAE7D2;
 }
-#menu li .active{
+.active{
     color: blue;
 }
 #menu a:hover
@@ -63,15 +65,20 @@ a:visited {
     color: #797066;
 }
 #content{
+    margin:1px;
 }
 #maincontent{
     color:#797066;
-    line-height: 30px;
-    font-family:times;
+    line-height: 20px;
+    font-size:13px;
     width:320px;
     float:left;
     margin:15px;
+    margin-top:-20px;
     border-right:dashed 1px #797066;
+}
+#maincontent p{
+    margin-right:10px;
 }
 #maincontent img
 {
@@ -79,25 +86,31 @@ a:visited {
     float:left;
 }
 #subcontent{
+    font-size:60%;
+    line-height: 20px;
     color:#797066;
     margin:15px;
+    margin-bottom:30px;
 }
-#subcontent h1{
-    font-size:18px;
+h1, h2{
+    margin-top:25px;
+    font-family:times sans-serif;
     font-weight:lighter;
 }
-#subcontent h2{
-    font-size:16px;
-    font-weight:lighter;
-    margin-bottom:-20px;
-    margin-top:50px;
+#subcontent p{
+    margin-bottom:80px;
+}
+#subcontent ul{
+    margin-top:-15px;
 }
 #subcontent li{
+    font-size:120%;
     list-style-type:none;
 }
 #bottomcontent{
+    clear:both;
     color:#797066;
-    font-size:15px;
+    font-size:10px;
     font-style:italic;
     margin-left:20px;
 }
