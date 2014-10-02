@@ -18,12 +18,13 @@ body{
     text-align:right;
     background-color:#51473D;
     font-size:12px;
-    height:200px;
-    background-position:0 20px;
+    height:215px;
+    background-position:0 15px;
     background-image: url("pics/coffey.jpg");
     background-repeat:no-repeat;
 }
 #menu{
+    text-transform:capitalize;
     font-family:verdana;
     font-size:15.5px;
     margin-top:-16px;
